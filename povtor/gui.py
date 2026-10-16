@@ -181,7 +181,7 @@ class App(tk.Tk):
         self.destroy()
 
 
-def panel(parent, app, **grid):
+def panel(parent, app):
     """Белая панель с тонкой рамкой — основной «кирпичик» интерфейса."""
     frame = tk.Frame(parent, bg=COLORS["surface"], highlightthickness=1,
                      highlightbackground=COLORS["border"], highlightcolor=COLORS["border"])
